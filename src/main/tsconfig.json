@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2015", "es2017", "es6", "dom"],
+    "types": ["reflect-metadata", "node"],
+    "rootDir": "..",
+    "baseUrl": "..",
+    "outDir": "../../dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "declaration": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true
+  },
+  "exclude": [
+    "../renderer/**/*",
+    "../../node_modules"
+  ],
+  "include": [
+    "**/*",
+    "../shared/**/*"
+  ]
+}
